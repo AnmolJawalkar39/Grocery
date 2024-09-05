@@ -1,0 +1,9 @@
+com\example\tests\UserTests.class
+com\example\tests\Create.class
+com\example\tests\ApiTest.class
+com\example\UserApiTests.class
+com\example\OrderApiTests.class
+com\example\tests\BaseTest.class
+com\example\ApiTestSpecs.class
+com\example\AppTest.class
+com\example\UserProfileTests.class

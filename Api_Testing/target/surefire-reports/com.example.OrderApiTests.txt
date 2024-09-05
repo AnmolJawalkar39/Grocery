@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.OrderApiTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.78 s <<< FAILURE! - in com.example.OrderApiTests
+com.example.OrderApiTests.testGetOrder  Time elapsed: 1.69 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at com.example.OrderApiTests.testGetOrder(OrderApiTests.java:42)
+
+com.example.OrderApiTests.testCreateOrder  Time elapsed: 0.067 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <403>.
+
+	at com.example.OrderApiTests.testCreateOrder(OrderApiTests.java:32)
+

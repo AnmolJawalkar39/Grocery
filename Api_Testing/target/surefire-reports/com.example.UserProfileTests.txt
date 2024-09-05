@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.UserProfileTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! - in com.example.UserProfileTests
+com.example.UserProfileTests.testUpdateUser  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at com.example.UserProfileTests.testUpdateUser(UserProfileTests.java:23)
+
+com.example.UserProfileTests.testDeleteUser  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <204> but was <403>.
+
+	at com.example.UserProfileTests.testDeleteUser(UserProfileTests.java:33)
+

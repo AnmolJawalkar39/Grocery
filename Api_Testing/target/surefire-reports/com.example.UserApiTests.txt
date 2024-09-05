@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.UserApiTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.243 s <<< FAILURE! - in com.example.UserApiTests
+com.example.UserApiTests.testInvalidUserLogin  Time elapsed: 0.135 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.UserApiTests.testInvalidUserLogin(UserApiTests.java:43)
+
+com.example.UserApiTests.testUserLogin  Time elapsed: 0.046 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.UserApiTests.testUserLogin(UserApiTests.java:31)
+
+com.example.UserApiTests.testUserRegistration  Time elapsed: 0.053 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.example.UserApiTests.testUserRegistration(UserApiTests.java:18)
+
